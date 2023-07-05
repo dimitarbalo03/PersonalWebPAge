@@ -1,0 +1,230 @@
+.navbar {
+    background-color: transparent;
+    border: none;
+    transition: background-color 0.3s ease;
+    padding-top: 20px;
+    position: relative;
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+.navbar:hover {
+    background-color: rgba(2, 16, 98, 0.75);
+}
+
+.navButtons{
+    position: relative;
+    text-decoration: none;
+    color: #8bebff;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 20px;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    background: none;
+}
+.navButtons:after{
+    content: "";
+    position: absolute;
+    background-color: #018dff;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 1px;
+    transition: 0.3s;
+}
+.navButtons:hover{
+    background-color: rgba(2, 16, 98, 0.75);
+}
+.navButtons:hover:after{
+    width: 100%;
+}
+
+body{
+    width: 99%;
+    height: 100%;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+}
+
+.h1{
+    color: #bac0ff;
+    padding-left: 20px;
+}
+.p1{
+    background-color: transparent;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 30px;
+    color: #bac0ff;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s ease;
+}
+.p1:hover{
+    background-color: #2756ee;
+}
+.image2{
+    float: right;
+    position: relative;
+    padding-right: 30px;
+    top: -300px;
+    width: 500px;
+    height: 350px;
+}
+.pEducation{
+    top: 65px;
+    background-color: transparent;
+    font-size: 25px;
+    padding-left: 30px;
+    position: relative;
+    margin-right: 700px;
+    color: #bac0ff;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s ease;
+}
+.pEducation:hover{
+    background-color: #2756ee;
+}
+.finkiLogo{
+    position: absolute;
+    left: 900px;
+    bottom: -50px;
+}
+#p1{
+    padding-right: 30px;
+    bottom: 250px;
+}
+.pSkills{
+    background-color: transparent;
+    font-size: 25px;
+    position: relative;
+    padding-left: 10px;
+    color: #bac0ff;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s ease;
+}
+.pSkills:hover{
+    background-color: #2756ee;
+}
+#p2{
+    margin-left: 650px;
+    margin-right: 50px;
+}
+#p3{
+    margin-right: 650px;
+    margin-left: 30px;
+    bottom: 150px;
+}
+#p4{
+    padding-left: 20px;
+}
+#Clogo{
+    width: 10%;
+    height: 10%;
+    position: relative;
+    padding-left: 100px;
+    bottom: 200px;
+
+}
+#C\+\+logo{
+   width: 10%;
+    height: 10%;
+    bottom: 200px;
+    padding-left: 150px;
+    position: relative;
+}
+#htmlLogo{
+    width: 13%;
+    height: 13%;
+    bottom: 470px;
+    position: relative;
+    left: 950px;
+}
+#cssLogo{
+    width: 13%;
+    height: 13%;
+    bottom: 470px;
+    position: relative;
+    left: 1000px;
+}
+#p5{
+    margin-left: 650px;
+    margin-right: 50px;
+    position: absolute;
+    bottom: -300px;
+}
+#javaLogo{
+    width: 20%;
+    height: 20%;
+    bottom: 150px;
+    left: -350px;
+    position: relative;
+}
+.pSkills2{
+    background-color: transparent;
+    font-size: 25px;
+    position: relative;
+    padding-left: 10px;
+    color: #bac0ff;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s ease;
+    bottom: 70px;
+}
+.pSkills2:hover{
+    background-color: #2756ee ;
+}
+.emailLogo{
+    position: relative;
+    width: 10%;
+    background-color: #018dff;
+    height: 10%;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.emailLogo:hover{
+    background-color: #8bebff;
+}
+.phoneLogo{
+    position: relative;
+    width: 10%;
+    background-color: #018dff;
+    height: 10%;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.phoneLogo:hover{
+    background-color: #8bebff;
+}
+.email{
+    background-color: transparent;
+    font-size: 25px;
+    position: relative;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s ease;
+    margin-left: 355px;
+    margin-right: 900px;
+}
+#email2{
+    margin-right: 730px;
+    left: -70px;
+}
+.email:hover{
+    background-color: #000000;
+}
+.phone{
+    background-color: transparent;
+    font-size: 25px;
+    position: relative;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s ease;
+    margin-left: 355px;
+    margin-right: 990px;
+    right: -590px;
+    bottom: 100px;
+}
+.phone:hover{
+    background-color: #000000;
+}
